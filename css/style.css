@@ -1,0 +1,71 @@
+/* ====== Estilo Global ====== */
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== Imagem de Logo ====== */
+.logo {
+    width: 160px;
+    max-width: 100%;
+}
+
+/* ====== Caixa de Login ====== */
+.login-box {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* ====== Footer line (adota a mesma largura do login-box) ====== */
+.footer-line {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* ====== Título Login ====== */
+h2 {
+    color: #0d3c61;
+}
+
+/* ====== Linhas decorativas ====== */
+.line {
+    border: none;
+    border-top: 2px solid #000;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* ====== Botões customizados ====== */
+.btn-custom {
+    background-color: #252742;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #1a1c33;
+}
+
+/* ====== Link "Esqueceu a senha?" ====== */
+.forgot-password {
+    color: darkred;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* ====== Campos de formulário ====== */
+.form-control {
+    border-radius: 8px;
+}
+
+/* ====== Responsividade para telas pequenas ====== */
+@media (max-width: 576px) {
+    .line {
+        width: 80%;
+    }
+}
